@@ -1,1 +1,3 @@
 # EmailSpamDetection
+
+The Email Spam Detection project leverages machine learning to classify emails as spam or non-spam. This project begins with collecting a dataset of labeled emails and preprocesses the text through cleaning and tokenization. It then transforms the text data into numerical features using techniques such as TF-IDF. Next it uses the Naive Bayes Machine learning model to train the data, with a split between training and testing sets. Model performance is evaluated using metrics like accuracy, precision, recall, and F1-score, ensuring robustness through cross-validation. The project identifies the best-performing model for predicting the classification of new emails and includes potential steps for real-time deployment. 
